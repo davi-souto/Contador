@@ -9,7 +9,6 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.JButton;
 import javax.swing.JTextField;
 import javax.swing.JLabel;
-import javax.swing.JMenu;
 
 public class InterfaceGrafica extends JFrame {
 
@@ -73,9 +72,5 @@ public class InterfaceGrafica extends JFrame {
 		JLabel txtvalor = new JLabel("Valor:");
 		txtvalor.setBounds(10, 48, 46, 14);
 		contentPane.add(txtvalor);
-		
-		JMenu menu = new JMenu("New menu");
-		menu.setBounds(212, 130, 107, 22);
-		contentPane.add(menu);
 	}
 }
