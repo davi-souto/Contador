@@ -1,8 +1,11 @@
 package model;
 
 public class Registro {
+	
 	private String cliente;
 	private double capital;
+	
+	
 	public String getCliente() {
 		return cliente;
 	}
